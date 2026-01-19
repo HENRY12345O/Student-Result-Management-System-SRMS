@@ -1,7 +1,7 @@
 # Student-Result-Management-System-SRMS
 # Student Result Management System (SRMS)
 
-**Name:** Okpogoro Henry  
+**Name:** Okpogoro Henry Oghenekvwe 
 **Matric Number:** 23/12935
 **Course:** SEN-201  
 
