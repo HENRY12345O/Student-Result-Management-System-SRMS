@@ -1,4 +1,4 @@
-Student Result Management System (SRMS)
+IStudent Result Management System (SRMS)
 Name: Okpogoro Henry Oghenekvwe 
 Matric No: 23/12935
 Department: Computer Science
