@@ -2,23 +2,55 @@ Student Result Management System (SRMS)
 Name: Okpogoro Henry Oghenekvwe 
 Matric No: 23/12935
 Department: Computer Science
-1. Requirement Analysis
-The Student Result Management System (SRMS) accepts a student name and three subject scores, calculates the total score and average score, determines the grade, and displays the student result.
-2. System Design
-Variables Used
-name – stores the student name
-score1 – stores subject 1 score
-score2 – stores subject 2 score
-score3 – stores subject 3 score
-total – stores total score
-average – stores average score
-grade – stores student grade
-Functions Used
-calculate_grade() – determines the grade based on the average score
-student_result() – accepts input, performs calculations, and displays the result
-3. Testing
-Student names and scores were entered into the program, and the system correctly calculated the total score, average score, and grade.
-4. Deployment
-The Python file srms.py was created and uploaded to a GitHub repository.
-5. Maintenance
-The system can be improved by adding support for multiple students and storing results permanently.
+. Planning
+Defined the objective: build a simple system to compute and display student results.
+Decided Python would be used as the programming language.
+Determined that a file-based program (not web or database backend) was sufficient for the project scope.
+Deliverables: Project idea, tools needed, basic goal statement.
+2. Requirements Analysis
+In this phase, the project author gathered what the system must do:
+Functional requirements:
+Accept student name input
+Accept three numeric scores
+Calculate total and average score
+Assign grade based on average
+Display the results
+Non-functional requirements:
+Must be a simple console program
+Quick execution
+Easy to read and understand code
+Output: A list of features the program must implement. �
+GitHub
+3. System Design
+Here the logic and structure of the program were defined:
+Variables like name, score1, score2, etc.
+Functions such as calculate_grade() to decide the grade
+A function like student_result() to bring it all together
+This phase planned how the code flows and how data moves through the program. �
+GitHub
+4. Implementation (Coding)
+This is where the actual Python code was written:
+Created srms.py
+Implemented input collection
+Added grade calculation logic
+Printed results in the console
+The code includes logic to compute total, average and determine the grade. �
+GitHub
+5. Testing
+Testing is described in the README:
+Running the script with different names and scores
+Confirming that total, average, and grade output correctly
+This ensures the functions work as expected before someone uses it. �
+GitHub
+6. Deployment
+Deployment for this simple program is minimal:
+The .py file is uploaded to the GitHub repository
+Others can download or clone it to run in their Python environment
+No server or cloud is involved for deployment. �
+GitHub
+7. Maintenance
+Maintenance here can include:
+Adding support for multiple students
+Storing results in a file or database
+Improving input validation
+Enhancing user interface
